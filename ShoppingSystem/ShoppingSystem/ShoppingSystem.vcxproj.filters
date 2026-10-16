@@ -1,0 +1,159 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="头文件\Product">
+      <UniqueIdentifier>{579c5efd-c613-4b39-95bf-1994b674cb20}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\Menu">
+      <UniqueIdentifier>{a64544b6-cf8d-47f4-9963-5c6b0c7f62b5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\User">
+      <UniqueIdentifier>{00d2fd53-7c84-4dcd-acef-6a334e527622}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\User">
+      <UniqueIdentifier>{04e2878e-231d-4e17-90f0-88e6466bc3e9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\Product">
+      <UniqueIdentifier>{5fdf6914-083f-4ac1-bccc-ab4758a1adb1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\Menu">
+      <UniqueIdentifier>{de6c5079-455d-49ce-a3d5-caed4d8e4a07}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\Order">
+      <UniqueIdentifier>{757064a4-30fe-4194-810e-3f10c5afd19e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\Order">
+      <UniqueIdentifier>{e03b6b5e-bd8b-48ef-98c5-2834b261ca54}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\Promotion">
+      <UniqueIdentifier>{cfac7852-ef75-4044-86e4-792f4518351b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\Promotion">
+      <UniqueIdentifier>{f64524d5-1c0b-4e91-8008-597bec80ca9e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\Data">
+      <UniqueIdentifier>{3e0d8ccb-657a-4f1b-9426-186de8c2b229}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\Data">
+      <UniqueIdentifier>{4b898896-03de-4110-afcb-cfcd64c4b8b2}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="User.hpp">
+      <Filter>头文件\User</Filter>
+    </ClInclude>
+    <ClInclude Include="Admin.hpp">
+      <Filter>头文件\User</Filter>
+    </ClInclude>
+    <ClInclude Include="Customer.hpp">
+      <Filter>头文件\User</Filter>
+    </ClInclude>
+    <ClInclude Include="UserManager.hpp">
+      <Filter>头文件\User</Filter>
+    </ClInclude>
+    <ClInclude Include="Product.hpp">
+      <Filter>头文件\Product</Filter>
+    </ClInclude>
+    <ClInclude Include="ProductList.hpp">
+      <Filter>头文件\Product</Filter>
+    </ClInclude>
+    <ClInclude Include="MenuManager.hpp">
+      <Filter>头文件\Menu</Filter>
+    </ClInclude>
+    <ClInclude Include="ShoppingCart.hpp">
+      <Filter>头文件\User</Filter>
+    </ClInclude>
+    <ClInclude Include="Order.hpp">
+      <Filter>头文件\Order</Filter>
+    </ClInclude>
+    <ClInclude Include="OrderList.hpp">
+      <Filter>头文件\Order</Filter>
+    </ClInclude>
+    <ClInclude Include="Promotion.hpp">
+      <Filter>头文件\Promotion</Filter>
+    </ClInclude>
+    <ClInclude Include="PromotionManager.hpp">
+      <Filter>头文件\Promotion</Filter>
+    </ClInclude>
+    <ClInclude Include="PromotionMenu.hpp">
+      <Filter>头文件\Menu</Filter>
+    </ClInclude>
+    <ClInclude Include="DiscountPromotion.hpp">
+      <Filter>头文件\Promotion</Filter>
+    </ClInclude>
+    <ClInclude Include="FullReductionPromotion.hpp">
+      <Filter>头文件\Promotion</Filter>
+    </ClInclude>
+    <ClInclude Include="DataManager.hpp">
+      <Filter>头文件\Data</Filter>
+    </ClInclude>
+    <ClInclude Include="TimeUtils.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Admin.cpp">
+      <Filter>源文件\User</Filter>
+    </ClCompile>
+    <ClCompile Include="Customer.cpp">
+      <Filter>源文件\User</Filter>
+    </ClCompile>
+    <ClCompile Include="User.cpp">
+      <Filter>源文件\User</Filter>
+    </ClCompile>
+    <ClCompile Include="UserManager.cpp">
+      <Filter>源文件\User</Filter>
+    </ClCompile>
+    <ClCompile Include="ProductList.cpp">
+      <Filter>源文件\Product</Filter>
+    </ClCompile>
+    <ClCompile Include="Product.cpp">
+      <Filter>源文件\Product</Filter>
+    </ClCompile>
+    <ClCompile Include="MenuManager.cpp">
+      <Filter>源文件\Menu</Filter>
+    </ClCompile>
+    <ClCompile Include="ShoppingCart.cpp">
+      <Filter>源文件\User</Filter>
+    </ClCompile>
+    <ClCompile Include="Order.cpp">
+      <Filter>源文件\Order</Filter>
+    </ClCompile>
+    <ClCompile Include="OrderList.cpp">
+      <Filter>源文件\Order</Filter>
+    </ClCompile>
+    <ClCompile Include="Promotion.cpp">
+      <Filter>源文件\Promotion</Filter>
+    </ClCompile>
+    <ClCompile Include="PromotionManager.cpp">
+      <Filter>源文件\Promotion</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="PromotionMenu.cpp">
+      <Filter>源文件\Menu</Filter>
+    </ClCompile>
+    <ClCompile Include="DiscountPromotion.cpp">
+      <Filter>源文件\Promotion</Filter>
+    </ClCompile>
+    <ClCompile Include="FullReductionPromotion.cpp">
+      <Filter>源文件\Promotion</Filter>
+    </ClCompile>
+    <ClCompile Include="DataManager.cpp">
+      <Filter>源文件\Data</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
